@@ -26,7 +26,7 @@ module.exports = {
 			hot: true,
 			inline: true
 		},
-	plugins: [
+	plugins: [ 
 		new webpack.NoErrorsPlugin(),
 		new CopyWebpackPlugin([
 			{from: './index.html'}

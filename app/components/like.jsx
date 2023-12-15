@@ -9,12 +9,12 @@ let Like = React.createClass({
 			stores: [],
 		}
 	},
-
+ 
 	componentDidMount: function() {
 		jsonp(this.props.source, "", "callback", (data) => {
 			if(data.status) {
 				if(this.isMounted()) {
-					this.setState({
+	 				this.setState({
 						stores: data.data,
 					});
 				}

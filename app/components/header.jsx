@@ -9,8 +9,8 @@ import React from 'react';
 let Header = React.createClass({
 	getInitialState: function() {
         return {
-        	imgUrls: [],
-        };
+          	imgUrls: [],
+        }; 
  	},
 	componentDidMount: function() {
 		jsonp(this.props.source, "", "callback", (data) => {

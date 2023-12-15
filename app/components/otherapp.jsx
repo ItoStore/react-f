@@ -15,7 +15,7 @@ let Otherapp = React.createClass({
  		jsonp(this.props.source, "", "callback", (data) => {
  			if(data.status) {
  				if(this.isMounted()) {
- 					this.setState({
+ 					this.setState({ 
  						apps: data.data,
  					})
  				}

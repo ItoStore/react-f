@@ -13,7 +13,7 @@ let Spike = React.createClass({
 			more: ""
 		}
 	},
-
+ 
 	formatTime: function(times=0) {
 		times = +times;
 		let hour = 0,

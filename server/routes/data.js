@@ -25,7 +25,7 @@ let readFileData = () => {
 	});
 	return promise;
 }
-
+ 
 
 /**
  * 通过Promise获取文件名

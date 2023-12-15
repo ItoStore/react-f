@@ -13,7 +13,7 @@ var More = React.createClass({
         	more3: [],
         };
  	},
-
+ 
 	componentDidMount: function() {
 		jsonp(this.props.source, "", "callback", (data) => {
 			if(data.status) {

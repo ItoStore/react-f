@@ -11,7 +11,7 @@
         var cbName = 'cb' + jsonp.count++;
         var callbackName = 'window.jsonp.' + cbName;
         window.jsonp[cbName] = function (jsonpData) {
-            try {
+            try { 
                 callback(jsonpData);
             } finally {
                 script.parentNode.removeChild(script);

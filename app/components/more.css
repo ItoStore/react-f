@@ -20,7 +20,7 @@ img {
 }
 
 .more_top:after, .more_middle:after, .more_bottom:after{
-	content: "";
+	content: ""; 
 	display: block;
 	clear: both;
 }

@@ -25,7 +25,7 @@ module.exports = {
 			noInfo: true, //  --no-info option
 			hot: true,
 			inline: true
-		},
+		}, 
 	plugins: [
 		new webpack.NoErrorsPlugin(),
 		new CopyWebpackPlugin([

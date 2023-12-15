@@ -16,7 +16,7 @@ let Otherapp = React.createClass({
  			if(data.status) {
  				if(this.isMounted()) {
  					this.setState({
- 						apps: data.data,
+ 						apps: data.data, 
  					})
  				}
  			}else {

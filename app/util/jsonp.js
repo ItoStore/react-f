@@ -14,7 +14,7 @@
             try {
                 callback(jsonpData);
             } finally {
-                script.parentNode.removeChild(script);
+                 script.parentNode.removeChild(script);
                 delete window.jsonp[cbName];
             }
         };

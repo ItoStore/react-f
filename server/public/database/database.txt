@@ -24,7 +24,7 @@
 			"title": "领券",
 			"url": "http://coupon.m.jd.com/center/getCouponCenter.action"
 		},
-		{
+		{ 
 			"title": "物流查询",
 			"url":  "http://home.m.jd.com/user/userAllOrderList.action"
 		},

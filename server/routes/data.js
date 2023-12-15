@@ -24,7 +24,7 @@ let readFileData = () => {
 		})
 	});
 	return promise;
-}
+} 
 
 
 /**

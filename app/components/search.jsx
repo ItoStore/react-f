@@ -19,7 +19,7 @@ let Search = React.createClass({
 				})
 			}
 		}
-	},
+	}, 
 	render: function() {
 		let bColor = this.state.bg ? this.state.bg : 'transprent';
 		return (

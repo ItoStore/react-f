@@ -11,7 +11,7 @@ let Header = React.createClass({
         return {
         	imgUrls: [],
         };
- 	},
+ 	}, 
 	componentDidMount: function() {
 		jsonp(this.props.source, "", "callback", (data) => {
 			if(data.status) {

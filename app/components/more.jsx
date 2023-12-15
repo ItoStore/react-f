@@ -27,7 +27,7 @@ var More = React.createClass({
 				    new Swiper ('.more_bottom .swiper-container', {
 					    loop: true,
 					    pagination: '.swiper-pagination',
-					    paginationClickable: true,
+					    paginationClickable: true, 
 					    autoplay : 2000,
 						autoplayDisableOnInteraction : false,		    
 					}) 

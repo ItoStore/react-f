@@ -15,7 +15,7 @@
 .oapp li:last-child:after {
 	content: "";
 	display: block;
-	clear: both;
+	clear: both; 
 }
 
 .oapp a {

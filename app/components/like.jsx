@@ -17,11 +17,11 @@ let Like = React.createClass({
 					this.setState({
 						stores: data.data,
 					});
-				}
+				} 
 			}else {
 				alert(data.msg);
 				reject("get data error!")
-			}
+			} 
 		})
 	},
 
